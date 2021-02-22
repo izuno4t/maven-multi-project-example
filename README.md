@@ -13,7 +13,8 @@ Mavenを使ったマルチモジュールの構成例
 ```bash
 maven-multi-module-example
 ├ core        # 他のモジュールで共用するモジュール
-├ batch       # batchアプリケーションのモジュール
+├ batch       # バッチアプリケーションのモジュール
+├ schema      # データベースマイグレーション
 ├ webapp      # Webアプリケーションのモジュール
 └ webservice  # Webサービスのモジュール
 ```
@@ -23,3 +24,16 @@ maven-multi-module-example
 - schema - データベースマイグレーション
 - webapp - SpringBoot を利用したのWebアプリケーション
 - webservice - SpringBoot を利用したのWebアプリケーション
+
+## データベースマイグレーション
+
+- flywayの実行
+
+```bash
+./mvnw  -f schema flyway:migrate
+```
+
+## リファレンス
+
+- [Guide to Working with Multiple Modules](https://maven.apache.org/guides/mini/guide-multiple-modules.html)
+- [First Steps: Maven](https://flywaydb.org/documentation/getstarted/firststeps/maven)

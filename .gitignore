@@ -1,3 +1,4 @@
+log/
 
 # Created by https://www.toptal.com/developers/gitignore/api/windows,osx,macos,linux,java,maven,eclipse,intellij+all,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,osx,macos,linux,java,maven,eclipse,intellij+all,visualstudiocode
@@ -206,7 +207,6 @@ hs_err_pid*
 # Icon must end with two \r
 Icon
 
-
 # Thumbnails
 ._*
 
@@ -288,4 +288,3 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,osx,macos,linux,java,maven,eclipse,intellij+all,visualstudiocode
-
