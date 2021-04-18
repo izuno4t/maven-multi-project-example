@@ -33,7 +33,15 @@ maven-multi-module-example
 ./mvnw  -f schema flyway:migrate
 ```
 
+## 依存関係の更新
+
+```bash
+./mvnw versions:display-dependency-updates
+```
+
+
 ## リファレンス
 
 - [Guide to Working with Multiple Modules](https://maven.apache.org/guides/mini/guide-multiple-modules.html)
 - [First Steps: Maven](https://flywaydb.org/documentation/getstarted/firststeps/maven)
+- [Maven/Gradleでdependencyのupdateをチェックする](https://hirakida29.hatenablog.com/entry/2019/11/13/151358)
