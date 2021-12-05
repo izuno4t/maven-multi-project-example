@@ -37,6 +37,8 @@ maven-multi-module-example
 
 ```bash
 ./mvnw versions:display-dependency-updates
+./mvnw versions:use-latest-versions
+./mvnw versions:commit
 ```
 
 
